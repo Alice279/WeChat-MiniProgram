@@ -1,0 +1,113 @@
+.head {
+  position: fixed;
+  top: 5vh;
+  width: 100%;
+}
+
+.navigate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.naviImg {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.swiper {
+  width: 94vw;
+  height: 45vw;
+  margin-left: 3vw;
+  margin-top: 3vh;
+  border-radius: 10px;
+  box-shadow: green 0 0 30rpx;
+}
+
+.swiperImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 170rpx;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 6vh;
+  padding-bottom: 100rpx;
+  padding-top: 350rpx;
+}
+
+.item {
+  width: 260rpx;
+  height: 200rpx;
+  margin: 25rpx 35rpx;
+  background-image: linear-gradient(to bottom right, greenyellow, green);
+  box-shadow: green 0 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.title {
+  color: white;
+  font-size: 30rpx;
+  line-height: 60rpx;
+}
+
+.navbar {
+  height: 100rpx;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  border: 1px solid rgb(190, 189, 189);
+  border-radius: 90rpx;
+  box-shadow: rgb(193, 226, 193) 0rpx 0rpx 20rpx;
+  position: fixed;
+  bottom: 5vh;
+  font-size: 25rpx;
+  background-color: white;
+}
+.navItem {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navSelected {
+  width: 120rpx;
+  height: 120rpx;
+  background-color: green;
+  border-radius: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7vh;
+}
+
+.navImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navImg {
+  width: 50rpx;
+  height: 50rpx;
+}

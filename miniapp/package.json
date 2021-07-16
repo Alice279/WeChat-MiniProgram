@@ -1,0 +1,39 @@
+{
+  "name": "miniapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project With TypeScript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "heymind <heymind@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat",
+    "lint": "eslint --fix .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "check": "eslint ."
+  },
+  "dependencies": {
+    "@miniprogram-component-plus/tabs": "^1.0.0",
+    "dayjs": "^1.10.5",
+    "react": "^16.14.0",
+    "react-use": "^14.0.0",
+    "remax": "^2.9.0",
+    "wx-promise-pro": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.3.1",
+    "typescript": "^4.1.2"
+  }
+}

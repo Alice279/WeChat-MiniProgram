@@ -1,0 +1,110 @@
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.naviImg {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.swiper {
+  width: 100vw;
+  height: 52vw;
+  border-radius: 10px;
+  box-shadow: #a0d1bb 0 0 50rpx;
+}
+
+.swiperImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 55vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 30vw;
+  margin: 25rpx 35rpx;
+  box-shadow: #a0d1bb 0 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentImg {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 40rpx;
+}
+
+.title {
+  color: #68d391;
+  font-size: 25rpx;
+}
+
+.navbar {
+  height: 100rpx;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  border: 1px solid rgb(190, 189, 189);
+  border-radius: 90rpx;
+  box-shadow: rgb(193, 226, 193) 0rpx 0rpx 20rpx;
+  position: fixed;
+  bottom: 5vh;
+  font-size: 25rpx;
+  background-color: white;
+}
+.navItem {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navSelected {
+  width: 120rpx;
+  height: 120rpx;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101),
+    rgb(14, 180, 158)
+  );
+  border-radius: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7vh;
+}
+
+.navImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navImg {
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,54 @@
+page {
+  background: white;
+}
+@import "../tailwind.css";
+
+@font-face {
+  font-family: "NerdFontsSymbols";
+  src: url("https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@gh-pages/assets/fonts/Symbols-2048-em%20Nerd%20Font%20Complete.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-icon {
+  font-family: "NerdFontsSymbols" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.border-bottom-green {
+  border-bottom: 4px solid rgb(4, 211, 105);
+}
+.shadow-green {
+  box-shadow: #a0d1bb 0 0 10rpx;
+}
+.large .text-xs {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.large .text-sm {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.large .text-base {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.large .text-lg {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.large .text-xl {
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+
+.large .text-2xl {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+}

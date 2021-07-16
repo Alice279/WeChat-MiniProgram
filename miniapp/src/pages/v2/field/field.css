@@ -1,0 +1,11 @@
+.mainContent {
+  height: 390px;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+
+.morePic {
+  height: 350px;
+  width: 580px;
+}

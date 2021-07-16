@@ -1,0 +1,97 @@
+.head {
+  position: fixed;
+  top: 6vh;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.navigate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*OGyZSI087zkAAAAAAAAAAABkARQnAQ");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.Img {
+  width: 100%;
+  height: 27vh;
+  border-radius: 10rpx;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vh;
+  margin-top: 2vh;
+}
+
+.title {
+  color: #38a169;
+  font-size: 37rpx;
+  margin-bottom: 1vh;
+}
+
+.info {
+  color: #38a169;
+  font-size: 25rpx;
+}
+
+.require {
+  margin-left: 3vh;
+  margin-top: 3vh;
+  display: flex;
+}
+
+.requireTitles {
+  display: flex;
+  flex-direction: column;
+}
+
+.requireTitle {
+  font-size: 32rpx;
+  margin-bottom: 3vh;
+  height: 54rpx;
+}
+
+.requireForm {
+  margin-left: 7vw;
+}
+
+.requireInput {
+  border: 2px solid #38a169;
+  border-radius: 10px;
+  margin-bottom: 3vh;
+  width: 60vw;
+  height: 50rpx;
+}
+
+.requireRadio {
+  height: 50rpx;
+  margin-bottom: 3vh;
+}
+
+.button {
+  width: 80%;
+  border-radius: 90px;
+  color: white;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101),
+    rgb(14, 180, 158)
+  );
+  position: fixed;
+  bottom: 5vh;
+  left: 10%;
+}

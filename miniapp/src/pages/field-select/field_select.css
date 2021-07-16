@@ -1,0 +1,27 @@
+.fieldItem {
+  height: 400rpx;
+  width: 600rpx;
+}
+
+.bg {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101, 0.7),
+    rgb(14, 180, 158, 0.7)
+  );
+}
+
+.fieldItem_btn {
+  height: 30%;
+  width: 60%;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(14, 180, 158, 0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

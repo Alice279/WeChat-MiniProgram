@@ -1,0 +1,40 @@
+.picHeader {
+  height: 380rpx;
+}
+
+.bg {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101),
+    rgb(14, 180, 158)
+  );
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: white;
+  padding: 0.1rem 0.3rem;
+}
+
+.choice {
+  color: black;
+  padding: 0.7rem 0;
+}
+
+.choiceSelected {
+  color: white;
+  padding: 0.7rem 0.5rem;
+}
+
+.choiceContent {
+  height: 370rpx;
+}

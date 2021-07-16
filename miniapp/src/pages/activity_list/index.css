@@ -1,0 +1,131 @@
+.head {
+  position: fixed;
+  top: 6vh;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.navigate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 11vh;
+  margin-bottom: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnavSelected {
+  font-size: 30rpx;
+  font-weight: 350;
+  border-bottom: #3cc2a4 0.5vh solid;
+}
+
+.topnavUsual {
+  font-size: 25rpx;
+}
+
+.content {
+  margin-bottom: 16vh;
+}
+
+.card {
+  width: 80%;
+  height: 450rpx;
+  margin-left: 10%;
+  margin-bottom: 50rpx;
+  display: block;
+  box-shadow: 0 0 20rpx #a0d1bb;
+}
+
+.cardImg {
+  height: 65%;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.cardContent {
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+
+.cardTitle {
+  font-size: 42rpx;
+  margin-bottom: 10rpx;
+  color: #3cc2a4;
+}
+
+.cardSub {
+  font-size: 27rpx;
+  color: #3cc2a4;
+}
+
+.cardButton {
+  width: 120rpx;
+  height: 65rpx;
+  margin-right: 40rpx;
+  margin-top: 40rpx;
+  border-radius: 90rpx;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101),
+    rgb(14, 180, 158)
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  height: 100rpx;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  border: 1px solid rgb(190, 189, 189);
+  border-radius: 90rpx;
+  box-shadow: #a0d1bb 0rpx 0rpx 20rpx;
+  position: fixed;
+  bottom: 5vh;
+  font-size: 25rpx;
+  background-color: white;
+}
+.navItem {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navSelected {
+  width: 120rpx;
+  height: 120rpx;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(10, 248, 101),
+    rgb(14, 180, 158)
+  );
+  border-radius: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7vh;
+}
+
+.navImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
